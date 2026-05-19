@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 60px; /* Ruang untuk judul */
+  padding-top: 60px;
 }
 
 #main-title {
@@ -45,7 +45,7 @@ body {
 #slides-container {
   position: relative;
   width: 94vw;
-  height: 78vh; /* Lebih kecil karena ada judul di atas */
+  height: 78vh; /
   max-width: 1000px;
   max-height: 650px;
 }
@@ -196,7 +196,7 @@ ul, ol {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 80px; /* Lebih tinggi untuk judul mobile */
+    padding-top: 80px;
   }
 
   #main-title {
