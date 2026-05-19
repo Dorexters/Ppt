@@ -19,7 +19,6 @@ function showSlide(index) {
   currentSlide = index;
 }
 
-// Navigasi
 const prevBtns = ['prev', 'prev-mobile'];
 const nextBtns = ['next', 'next-mobile'];
 
@@ -37,13 +36,11 @@ nextBtns.forEach(id => {
   });
 });
 
-// Keyboard
 document.addEventListener('keydown', (e) => {
   if (e.key === 'ArrowLeft') showSlide(Math.max(0, currentSlide - 1));
   if (e.key === 'ArrowRight') showSlide(Math.min(totalSlides - 1, currentSlide + 1));
 });
 
-// Fullscreen
 const fullscreenBtn = document.getElementById('fullscreen-btn');
 fullscreenBtn.textContent = '🖥️';
 
